@@ -6,12 +6,12 @@ import { RootStackParamList } from "../types";
 
 export default function NotFoundScreen({
   navigation,
-}: StackScreenProps<RootStackParamList, "NotFound">) {
+}: StackScreenProps<RootStackParamList, "Home">) {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>This screen doesn't exist.</Text>
       <TouchableOpacity
-        onPress={() => navigation.replace("Root")}
+        onPress={() => navigation.replace("Login")}
         style={styles.link}
       >
         <Text style={styles.linkText}>Go to home screen!</Text>
