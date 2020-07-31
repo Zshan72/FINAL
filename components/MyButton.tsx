@@ -1,5 +1,6 @@
 import * as React from "react";
-import { Text, StyleSheet } from "react-native";
+import { StyleSheet } from "react-native";
+import { Text } from "./Themed";
 import { TouchableOpacity } from "react-native-gesture-handler";
 class MyButton extends React.Component<any, any> {
   constructor(props: any) {
@@ -20,10 +21,10 @@ class MyButton extends React.Component<any, any> {
 const styles = StyleSheet.create({
   input: {
     margin: 5,
+    backgroundColor: "#2F95DC",
   },
   linkText: {
     fontSize: 20,
-    color: "#2e78b7",
   },
 });
 export default MyButton;
