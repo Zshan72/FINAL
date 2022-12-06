@@ -1616,7 +1616,7 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
   integrity sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
 
-"@types/react-native@~0.62.13":
+"@types/react-native@^0.62.18":
   version "0.62.18"
   resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.62.18.tgz#ad63691e7c44edef2beeb6af52b2eb942c3ed8a1"
   integrity sha512-7QfU8EzIYxYqeXpPf8QNv2xi8hrePlgTbRATRo+plRSdVfJu7N6sAXqrFxKJp6bGLvp82GV1gczl93gqiAfXPA==
@@ -3122,10 +3122,10 @@ expo-constants@~9.1.1:
     fbjs "1.0.0"
     uuid "^3.3.2"
 
-expo-error-recovery@~1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/expo-error-recovery/-/expo-error-recovery-1.2.1.tgz#a8fd68950235d4f22b30d901bfc90f7732720b93"
-  integrity sha512-QywpoDYfUCEJ62wv6xywY7JsLiMG31h22hjQ3HuBfj+cJNko5zSyJ7YKeXKGF2WiSVrSfA0HhqzNmsen9LMZrA==
+expo-error-recovery@~1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/expo-error-recovery/-/expo-error-recovery-1.2.2.tgz#512a92610c267201eae2a8c5e9e744aa34400e5f"
+  integrity sha512-DyTSpAXL0ir36i2v5APc31dfA5lJ8WA3n/yzsc8Q2+8mB04TTtBMNKnhnrzSD5ZGQ4fBAoW21vxWI1WiAsRbcg==
   dependencies:
     fbjs "1.0.0"
 
@@ -3216,10 +3216,10 @@ expo-web-browser@~8.3.1:
   dependencies:
     compare-urls "^2.0.0"
 
-expo@~38.0.8:
-  version "38.0.9"
-  resolved "https://registry.yarnpkg.com/expo/-/expo-38.0.9.tgz#dac9e4ccee0b86747b71c1b3a827d60fe340c81e"
-  integrity sha512-xT9h62Vi5e7nqbX+zWCqVw09wCOvoLJTy4cAw3ZE41ENidqCjZAYXv1DXx2LvQcGjZdarHkT2TzJZfl6zHFxDw==
+expo@^38.0.9:
+  version "38.0.11"
+  resolved "https://registry.yarnpkg.com/expo/-/expo-38.0.11.tgz#36f1967136e86a07d60f6f91f3a9e8e006eb22e5"
+  integrity sha512-obiO1ysPZBW3qPNxP3r2U027oep/NQff10xzE6BsfaWEVJGSVdAC4DrsnUyblzWC3HESuUOWwlhgvPaS3itJiA==
   dependencies:
     "@babel/runtime" "^7.1.2"
     "@expo/vector-icons" "^10.0.2"
@@ -3230,7 +3230,7 @@ expo@~38.0.8:
     cross-spawn "^6.0.5"
     expo-asset "~8.1.7"
     expo-constants "~9.1.1"
-    expo-error-recovery "~1.2.1"
+    expo-error-recovery "~1.2.2"
     expo-file-system "~9.0.1"
     expo-font "~8.2.1"
     expo-keep-awake "~8.2.1"
@@ -6034,9 +6034,9 @@ qs@^6.5.0:
   integrity sha512-A1kFqHekCTM7cz0udomYUoYNWjBebHm/5wzU/XqrBRBNWectVH0QIiN+NEcZ0Dte5hvzHwbr8+XQmguPhJ6WdQ==
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 query-string@^5.0.1:
   version "5.1.1"
